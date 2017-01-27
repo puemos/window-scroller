@@ -13,9 +13,12 @@
         "scroll",
         "animation",
         "scrollTo",
+        "scrollTop",
         "animated",
         "window",
         "scrollbar",
+        "animate",
         "bar"
-    ]
+    ],
+    "homepage": "https://github.com/Puemos/window-scroll-to-animate" 
 }
