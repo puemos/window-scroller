@@ -1,12 +1,21 @@
 {
-  "name": "window-scroll-to-animate",
-  "version": "0.0.1",
-  "description": "window scrolling animating ",
-  "main": "index.js",
-  "repository": {
-    "url": "git@github.com:Puemos/window-scroll-to-animate.git",
-    "type": "git"
-  },
-  "author": "Shy Alter",
-  "license": "MIT"
+    "name": "window-scroll-to-animate",
+    "version": "0.0.1",
+    "description": "window scrolling animating ",
+    "main": "index.js",
+    "repository": {
+        "url": "git@github.com:Puemos/window-scroll-to-animate.git",
+        "type": "git"
+    },
+    "author": "Shy Alter",
+    "license": "MIT",
+    "keywords": [
+        "scroll",
+        "animation",
+        "scrollTo",
+        "animated",
+        "window",
+        "scrollbar",
+        "bar"
+    ]
 }
