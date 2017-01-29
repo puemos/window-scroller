@@ -20,5 +20,9 @@
     "animate",
     "bar"
   ],
-  "homepage": "https://github.com/Puemos/window-scroll-to-animate"
+  "homepage": "https://github.com/Puemos/window-scroll-to-animate",
+  "dependencies": {
+    "bounding-client-rect": "^1.0.5",
+    "raf": "^3.3.0"
+  }
 }
