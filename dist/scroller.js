@@ -14,7 +14,7 @@ var Scroller = function () {
     _classCallCheck(this, Scroller);
 
     this._scrollTargetY = 0;
-    this._speed = 2000;
+    this._speed = 500;
     this._easing = 'easeOutSine';
     this.scrollY = window.scrollY;
   }
