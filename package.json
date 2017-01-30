@@ -1,6 +1,6 @@
 {
   "name": "window-scroller",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "window scrolling animating ",
   "main": "index.js",
   "repository": {
