@@ -4,7 +4,7 @@
   "description": "window scrolling animating ",
   "main": "index.js",
   "repository": {
-    "url": "git@github.com:Puemos/window-scroll-to-animate.git",
+    "url": "git@github.com:Puemos/window-scroller.git",
     "type": "git"
   },
   "author": "Shy Alter",
@@ -21,7 +21,7 @@
     "animate",
     "bar"
   ],
-  "homepage": "https://github.com/Puemos/window-scroll-to-animate",
+  "homepage": "https://github.com/Puemos/window-scroller",
   "dependencies": {
     "bluebird": "^3.4.7",
     "bounding-client-rect": "^1.0.5",
