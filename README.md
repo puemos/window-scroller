@@ -10,7 +10,7 @@
 
 ## install
 
-```javascript
+```bash
 npm install window-scroller --save
 ```
 
@@ -18,19 +18,28 @@ npm install window-scroller --save
 
 ```javascript
 import Scroller from 'window-scroller';
-OR
+// OR
 const Scroller = require('window-scroller');
 
+// Position
 Scroller.to(500).scroll()
 Scroller.to(500).speed(700).scroll()
 Scroller.to(500).easing('easeOutSine').scroll();
 Scroller.to(500).speed(700).easing('easeInOutSine').scroll();
 
+// Element in the DOM
 const element = document.getElementById('rolling');
 Scroller.to(element).scroll()
 Scroller.to(element).speed(700).scroll()
 Scroller.to(element).easing('easeInOutQuint').scroll();
 Scroller.to(element).speed(700).easing('easeInOutQuint').scroll();
+
+// Save the scroller and use whenever you need
+const rollingScroller = Scroller.to(element).speed(700).easing('easeInOutQuint');
+rollingScroller.scroll()
+
+const topScroller = Scroller.to(0).speed(700).easing('easeOutSine');
+topScroller.scroll()
 ```
 
 ## options
