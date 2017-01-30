@@ -1,5 +1,5 @@
 {
-  "name": "window-scroll-to-animate",
+  "name": "window-scroller",
   "version": "0.0.2",
   "description": "window scrolling animating ",
   "main": "index.js",
@@ -13,6 +13,7 @@
     "scroll",
     "animation",
     "scrollTo",
+    "scroller",
     "scrollTop",
     "animated",
     "window",
@@ -27,7 +28,8 @@
     "raf": "^3.3.0"
   },
   "scripts": {
-    "build": "gulp build"
+    "build": "gulp build",
+    "prepublish": "gulp build"
   },
   "devDependencies": {
     "babel-preset-es2015": "^6.9.0",

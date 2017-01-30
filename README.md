@@ -1,4 +1,5 @@
-# window-scroll-to-animate
+# window-scroller
+
 ## Credit:
 
 @shunryu111 <http://stackoverflow.com/users/2630316/shunryu111>
@@ -10,25 +11,41 @@
 ## install
 
 ```javascript
-npm install window-scroll-to-animate --save
+npm install window-scroller --save
 ```
 
 ## usage
 
 ```javascript
-import scrollToY from 'window-scroll-to-animate';
+import Scroller from 'window-scroller';
+OR
+const Scroller = require('window-scroller');
 
-scrollToY(0, 1500, 'easeOutSine');
-scrollToY(0, 1500, 'easeInOutSine');
-scrollToY(0, 1500, 'easeInOutQuint');
+Scroller.to(500).scroll()
+Scroller.to(500).speed(700).scroll()
+Scroller.to(500).easing('easeOutSine').scroll();
+Scroller.to(500).speed(700).easing('easeInOutSine').scroll();
 
+const element = document.getElementById('rolling');
+Scroller.to(element).scroll()
+Scroller.to(element).speed(700).scroll()
+Scroller.to(element).easing('easeInOutQuint').scroll();
+Scroller.to(element).speed(700).easing('easeInOutQuint').scroll();
 ```
 
-```javascript
-const scrollToY = require('window-scroll-to-animate');
+## options
 
-scrollToY(0, 1500, 'easeOutSine');
-scrollToY(0, 1500, 'easeInOutSine');
-scrollToY(0, 1500, 'easeInOutQuint');
+speed (Integer):
 
-```
+- 0 -> inf
+
+easing (String):
+
+- easeOutSine
+- easeInOutSine
+- easeInOutQuint
+
+to (Integer | Element):
+
+- DOM Element
+- Integer
