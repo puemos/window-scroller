@@ -1,2 +1,2 @@
 'use strict';
-module.exports = require('./lib/scrollToY');;
+module.exports = require('./dist/scroller');;

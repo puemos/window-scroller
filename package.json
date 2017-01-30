@@ -22,7 +22,16 @@
   ],
   "homepage": "https://github.com/Puemos/window-scroll-to-animate",
   "dependencies": {
+    "bluebird": "^3.4.7",
     "bounding-client-rect": "^1.0.5",
     "raf": "^3.3.0"
+  },
+  "scripts": {
+    "build": "gulp build"
+  },
+  "devDependencies": {
+    "babel-preset-es2015": "^6.9.0",
+    "gulp": "^3.9.1",
+    "gulp-babel": "^6.1.2"
   }
 }
