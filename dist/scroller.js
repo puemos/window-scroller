@@ -56,8 +56,10 @@ var Scroller = function () {
     }
   }, {
     key: 'scroll',
-    value: function scroll(cb) {
+    value: function scroll() {
       var _this = this;
+
+      var cb = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : function () {};
 
       this.time();
       var currentTime = 0;
