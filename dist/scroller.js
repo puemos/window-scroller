@@ -45,14 +45,7 @@ var Scroller = function () {
   }, {
     key: 'getNodeTop',
     value: function getNodeTop(node) {
-      try {
-        var _getBoundingClientRec = getBoundingClientRect(node),
-            top = _getBoundingClientRec.top;
-
-        return top;
-      } catch (e) {
-        return 0;
-      }
+      return node.offsetTop;
     }
   }, {
     key: 'scroll',
@@ -61,6 +54,7 @@ var Scroller = function () {
 
       var cb = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : function () {};
 
+      this.scrollY = window.scrollY;
       this.time();
       var currentTime = 0;
       var tick = function tick() {
