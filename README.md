@@ -1,5 +1,8 @@
 # window-scroller
 
+[![NPM](https://nodei.co/npm/window-scroller.png?downloads=true)](https://nodei.co/npm/window-scroller/)
+
+
 ## Credit:
 
 @shunryu111 <http://stackoverflow.com/users/2630316/shunryu111>
